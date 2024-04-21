@@ -1,7 +1,13 @@
 import os
 import sys
+import time
 from crewai import Agent, Task, Crew, Process
 from crewai_tools import tool
+
+def show_time(message, t1):
+    t2 = time.time()
+    print(f"{message}: {round(t2-t1,4)} saniye")
+    return t2
 
 def get_myapikey(key):
     with open("/etc/apikeys/myapikeys.py") as f:
@@ -69,6 +75,7 @@ crew = Crew(
     process=Process.sequential
 )
 
+t1 = time.time()
 result = crew.kickoff()
-
 print(result)
+show_time("Toplam süre ", t1)
