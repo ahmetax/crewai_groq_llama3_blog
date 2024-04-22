@@ -11,7 +11,7 @@ def show_time(message, t1):
 
 def get_myapikey(key):
     with open("/etc/apikeys/myapikeys.py") as f:
-        lines = f.readlines(key)
+        lines = f.readlines()
         for line in lines:
             if line.startswith(key):
                 s = line.split('=')
