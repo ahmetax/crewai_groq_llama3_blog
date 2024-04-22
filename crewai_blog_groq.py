@@ -11,9 +11,9 @@ def show_time(message, t1):
 
 def get_myapikey(key):
     with open("/etc/apikeys/myapikeys.py") as f:
-        lines = f.readlines()
+        lines = f.readlines(key)
         for line in lines:
-            if line.startswith('GROQ_API_KEY'):
+            if line.startswith(key):
                 s = line.split('=')
                 skey=s[1].strip()
                 skey=skey.replace("'","")
