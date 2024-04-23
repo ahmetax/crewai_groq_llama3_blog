@@ -2,7 +2,11 @@
 A simple blog creation system written in python using crewai, groq and llama3
 Crewai, groq ve llama3 kullanılarak, python'la yazılmış basit bir blog oluşturucu
 
-# KÜTÜPHANE KURULUMLARI/INSTALLATION OF LIBRARIES
+## Videolar/Videos
+Yapay Zekaya Llama3, Groq ve Crewai Kullanarak Jet Hızıyla Blog Yazdıralım
+https://youtu.be/WI6PgDsmeDk?si=Qcpumuh542CUm34O
+
+# Kütüphane Kurulumları/Installation of libraries
 ## temel kurulum/Installation
 mkdir crewai
 cd crewai
