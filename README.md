@@ -2,36 +2,40 @@
 A simple blog creation system written in python using crewai, groq and llama3
 Crewai, groq ve llama3 kullanılarak, python'la yazılmış basit bir blog oluşturucu
 
-# KÜTÜPHANE KURULUM/INSTALLATION OF LIBRARIES
-# temel kurulum/Installation
+# KÜTÜPHANE KURULUMLARI/INSTALLATION OF LIBRARIES
+## temel kurulum/Installation
 mkdir crewai
 cd crewai
 python -m venv e310
 source e310/bin/activate
 (e310) pip install --upgrade pip
 
-# crewai ve araçlarının kurulumu/Installation of crewai and other libraries
+## crewai ve diğer kütüphanelerin kurulumu/Installation of crewai and other libraries
 (e310) pip install crewai
 (e310) pip install crewai-tools duckduckgo-search langchain langchain-community
 
-# GROQ_API_KEY
+## GROQ_API_KEY
 https://console.groq.com/
 API Keys
 
-# GOOGLE_API_KEY
+## GOOGLE_API_KEY
 https://aistudio.google.com/app/apikey
 Create API Key
 
 
-# ollama kurulumu
+## ollama kurulumu
 https://ollama.com
 Download
 İşletim sistemini seç
-Çalıştırmak için -> ollama run model
-# Modelleri indirmek için -> https://ollama.com/library
+## Çalıştırmak için/To run
+ollama run model
+## Modelleri indirmek için/To download models
+https://ollama.com/library
+veya/or
+ollama run model
 
-# visual studio code çalıştırmak için
+## visual studio code çalıştırmak için/To run visual studio code
 code .
 
-Github adresi
+## Github adresi / Github address
 https://github.com/ahmetax/crewai_groq_llama3_blog
